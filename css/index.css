@@ -126,3 +126,74 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Roboto Cn", sans-serif;
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+  height: 80vh;
+  background-image: url(https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+header nav .logo {
+  font-size: rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+header nav ul {
+  display: flex;
+}
+@media (max-width: 500px) {
+  header nav ul {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  header nav ul li {
+    padding: 10px;
+  }
+}
+header nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 2rem;
+  color: #800000;
+}
+header nav a:hover {
+  color: red;
+  text-decoration-line: underline;
+}
+h1 {
+  font-size: 3rem;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
