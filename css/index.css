@@ -149,6 +149,11 @@ header {
   background-size: cover;
   background-position: center;
 }
+@media (max-width: 500px) {
+  header {
+    height: 50vh;
+  }
+}
 header nav {
   display: flex;
   justify-content: center;
@@ -319,6 +324,11 @@ h3 {
   align-items: center;
   padding: 80px;
 }
+@media (max-width: 500px) {
+  .au {
+    padding: 40px;
+  }
+}
 .quote {
   display: flex;
   justify-content: center;
@@ -339,5 +349,7 @@ h3 {
 .quote p {
   line-height: 1.6;
   font-size: 2rem;
+}
+.quote p span {
   font-weight: bold;
 }
