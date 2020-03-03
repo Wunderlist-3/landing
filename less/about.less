@@ -1,0 +1,59 @@
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  @media @phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.mini-about {
+  @media @phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+h3 {
+  font-size: 1.8rem;
+  padding: 10px 0px;
+}
+
+.about-pic {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #021a40;
+}
+
+.au {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 200px;
+  @media @phone {
+    display: flex;
+    .centered();
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    margin-left: 50px;
+  }
+  p {
+    line-height: 1.6;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
