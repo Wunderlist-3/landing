@@ -3,8 +3,7 @@
   justify-content: space-evenly;
   padding-bottom: 50px;
   @media @phone {
-    display: flex;
-    flex-direction: column;
+    .column();
     justify-content: space-evenly;
     align-items: center;
   }
@@ -12,10 +11,8 @@
 
 .mini-about {
   @media @phone {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .column();
+    .centered();
     padding: 20px;
   }
 }
@@ -28,13 +25,12 @@ h3 {
 .about-pic {
   width: 150px;
   height: 150px;
-  border: 1px solid #021a40;
+  .pic-border();
 }
 
 .au {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  .centered();
   padding: 80px;
   @media @phone {
     padding: 40px;
@@ -43,13 +39,12 @@ h3 {
 
 .quote {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  .centered();
   padding: 80px 200px;
   @media @phone {
-    display: flex;
+    .column();
     .centered();
-    flex-direction: column;
+
     width: 80%;
     padding: 20px;
     margin-left: 50px;

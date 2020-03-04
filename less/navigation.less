@@ -8,21 +8,31 @@ header {
   @media @phone {
     height: 50vh;
   }
+  @media @tablet {
+    height: 70vh;
+    width: 110%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   nav {
     display: flex;
     .centered();
     padding-top: 1rem;
 
+    @media @tablet {
+      width: 80%;
+    }
+
     @media @phone {
-      display: flex;
-      flex-direction: column;
+      .column();
     }
 
     .logo {
-      font-size: rem;
-      font-weight: 300;
-      text-decoration: none;
+      @media @tablet {
+        width: 200px;
+      }
     }
 
     ul {

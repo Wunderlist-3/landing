@@ -154,11 +154,25 @@ header {
     height: 50vh;
   }
 }
+@media (max-width: 800px) {
+  header {
+    height: 70vh;
+    width: 110%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 header nav {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 1rem;
+}
+@media (max-width: 800px) {
+  header nav {
+    width: 80%;
+  }
 }
 @media (max-width: 500px) {
   header nav {
@@ -166,10 +180,10 @@ header nav {
     flex-direction: column;
   }
 }
-header nav .logo {
-  font-size: rem;
-  font-weight: 300;
-  text-decoration: none;
+@media (max-width: 800px) {
+  header nav .logo {
+    width: 200px;
+  }
 }
 header nav ul {
   display: flex;
@@ -210,9 +224,9 @@ p {
 }
 .middle {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   padding: 10px 150px;
 }
 @media (max-width: 500px) {
@@ -244,8 +258,18 @@ p {
     padding: 50px;
   }
 }
+@media (max-width: 800px) {
+  .bottom {
+    flex-wrap: wrap;
+  }
+}
 .mini {
   padding: 0px 50px;
+}
+@media (max-width: 800px) {
+  .mini {
+    padding-top: 30px;
+  }
 }
 @media (max-width: 500px) {
   .mini {
@@ -260,6 +284,11 @@ p {
 @media (max-width: 500px) {
   .mini p {
     width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .mini p {
+    width: 90%;
   }
 }
 .mini-pic {
@@ -280,11 +309,11 @@ button {
   color: black;
   margin-top: 20px;
   padding: 5px 20px;
-  border: 2px solid crimson;
+  border: 2px solid #ce1136;
   border-radius: 3px;
 }
 button:hover {
-  background-color: crimson;
+  background-color: #ce1136;
   color: darkgrey;
 }
 .about {
@@ -338,9 +367,9 @@ h3 {
 @media (max-width: 500px) {
   .quote {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 80%;
     padding: 20px;
     margin-left: 50px;

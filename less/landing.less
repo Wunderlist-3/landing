@@ -12,10 +12,8 @@ p {
   letter-spacing: 1px;
 }
 .middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  .column();
+  .centered();
   padding: 10px 150px;
   @media @phone {
     padding: 50px;
@@ -35,15 +33,20 @@ p {
   justify-content: space-evenly;
   padding: 100px;
   @media @phone {
-    display: flex;
-    flex-direction: column;
+    .column();
     .centered();
     padding: 50px;
+  }
+  @media @tablet {
+    flex-wrap: wrap;
   }
 }
 
 .mini {
   padding: 0px 50px;
+  @media @tablet {
+    padding-top: 30px;
+  }
   @media @phone {
     width: 100%;
     padding-top: 40px;
@@ -55,13 +58,16 @@ p {
     @media @phone {
       width: 80%;
     }
+    @media @tablet {
+      width: 90%;
+    }
   }
 }
 
 .mini-pic {
   width: 350px;
   height: 300px;
-  border: 1px solid #021a40;
+  .pic-border();
   @media @phone {
     width: 250px;
     height: 200px;
@@ -70,16 +76,8 @@ p {
 }
 
 button {
-  background-color: #f5f5f5;
-  font-size: 2rem;
-  color: black;
-  margin-top: 20px;
-  padding: 5px 20px;
-  border: 2px solid crimson;
-  border-radius: 3px;
+  .button-mix();
 }
-
 button:hover {
-  background-color: crimson;
-  color: darkgrey;
+  .hover();
 }
