@@ -227,6 +227,7 @@ p {
   letter-spacing: 1px;
 }
 .middle {
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -365,7 +366,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px;
+  padding: 50px;
 }
 @media (max-width: 500px) {
   .au {
