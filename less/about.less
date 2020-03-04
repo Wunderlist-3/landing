@@ -7,6 +7,9 @@
     justify-content: space-evenly;
     align-items: center;
   }
+  @media @tablet {
+    flex-wrap: wrap;
+  }
 }
 
 .mini-about {
@@ -14,6 +17,9 @@
     .column();
     .centered();
     padding: 20px;
+  }
+  @media @tablet {
+    padding: 25px;
   }
 }
 
@@ -41,10 +47,13 @@ h3 {
   display: flex;
   .centered();
   padding: 80px 200px;
+  @media @tablet {
+    width: 100%;
+    margin-left: 20px;
+  }
   @media @phone {
     .column();
     .centered();
-
     width: 80%;
     padding: 20px;
     margin-left: 50px;

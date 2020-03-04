@@ -172,12 +172,16 @@ header nav {
 @media (max-width: 800px) {
   header nav {
     width: 80%;
+    margin-left: 25px;
   }
 }
 @media (max-width: 500px) {
   header nav {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
   }
 }
 @media (max-width: 800px) {
@@ -329,6 +333,11 @@ button:hover {
     align-items: center;
   }
 }
+@media (max-width: 800px) {
+  .about {
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 500px) {
   .mini-about {
     display: flex;
@@ -336,6 +345,11 @@ button:hover {
     justify-content: center;
     align-items: center;
     padding: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .mini-about {
+    padding: 25px;
   }
 }
 h3 {
@@ -363,6 +377,12 @@ h3 {
   justify-content: center;
   align-items: center;
   padding: 80px 200px;
+}
+@media (max-width: 800px) {
+  .quote {
+    width: 100%;
+    margin-left: 20px;
+  }
 }
 @media (max-width: 500px) {
   .quote {
