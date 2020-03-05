@@ -18,6 +18,7 @@ p {
   padding: 10px 150px;
   @media @phone {
     padding: 50px;
+    margin-left: 10px;
   }
   p {
     padding-top: 20px;
@@ -31,12 +32,15 @@ p {
 
 .bottom {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 100px;
   @media @phone {
     .column();
     .centered();
-    padding: 50px;
+    padding: 20px;
+    padding-right: 0px;
+    width: 90%;
+    margin: 0 auto;
   }
   @media @tablet {
     flex-wrap: wrap;
@@ -44,7 +48,7 @@ p {
 }
 
 .mini {
-  padding: 0px 50px;
+  padding: 0px 40px;
   @media @tablet {
     padding-top: 30px;
   }
@@ -52,12 +56,13 @@ p {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-left: 30px;
   }
 
   p {
     line-height: 1.6;
     @media @phone {
-      width: 80%;
+      width: 90%;
     }
     @media @tablet {
       width: 90%;

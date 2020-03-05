@@ -13,10 +13,12 @@
 }
 
 .mini-about {
+  .column();
+  .centered();
   @media @phone {
     .column();
     .centered();
-    padding: 20px;
+    padding: 30px;
   }
   @media @tablet {
     padding: 25px;
@@ -29,9 +31,10 @@ h3 {
 }
 
 .about-pic {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   .pic-border();
+  border-radius: 50%;
 }
 
 .au {
@@ -48,15 +51,16 @@ h3 {
   .centered();
   padding: 80px 200px;
   @media @tablet {
-    width: 100%;
-    margin-left: 20px;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
   }
   @media @phone {
     .column();
     .centered();
     width: 80%;
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 60px;
   }
   p {
     line-height: 1.6;
