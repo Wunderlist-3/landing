@@ -22,7 +22,7 @@ Shawn Patel https://github.com/shawnpatel96
 
 Alexander Sierra https://github.com/alexandercsierra
 
-<h2>Web UI Developer</h2>
+<h2>User Interface</h2>
 
 Danial Hadavi https://github.com/DanialHadavi
 
