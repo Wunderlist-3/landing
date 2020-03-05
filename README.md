@@ -1,6 +1,6 @@
 # Wunderlist 2.0
 
-Landing site: https://wunderlist-3.github.io/landing/
+https://wunderlist-3.github.io/landing/
 
 # Overview
 
