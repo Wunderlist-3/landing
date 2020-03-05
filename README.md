@@ -6,7 +6,7 @@ Wunderlist 2.0 takes your traditional to-do list app and automates it. It not on
 
 # Credits
 
-Project Manager
+<h2>Project Manager</h2>
 
 Jackson Ogles https://github.com/cjogles
 
