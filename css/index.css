@@ -239,7 +239,8 @@ p {
 @media (max-width: 500px) {
   .middle {
     padding: 50px;
-    margin-left: 10px;
+    margin-left: 0 auto;
+    width: 100%;
   }
 }
 .middle p {
@@ -249,7 +250,7 @@ p {
 }
 @media (max-width: 500px) {
   .middle p {
-    width: 80%;
+    width: 90%;
   }
 }
 .bottom {
@@ -263,9 +264,9 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     padding-right: 0px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -287,7 +288,7 @@ p {
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-left: 30px;
+    margin-left: 0 auto;
   }
 }
 .mini p {
@@ -295,12 +296,12 @@ p {
 }
 @media (max-width: 500px) {
   .mini p {
-    width: 90%;
+    width: 100%;
   }
 }
 @media (max-width: 800px) {
   .mini p {
-    width: 90%;
+    width: 100%;
   }
 }
 .mini-pic {
@@ -310,9 +311,9 @@ p {
 }
 @media (max-width: 500px) {
   .mini-pic {
-    width: 250px;
-    height: 200px;
-    border: 1px solid #021a40;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
   }
 }
 button {
