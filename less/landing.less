@@ -1,0 +1,89 @@
+h1 {
+  font-size: 3.5rem;
+  padding: 15px;
+}
+h2 {
+  font-size: 2.5rem;
+  padding: 15px 0px;
+}
+
+p {
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+.middle {
+  margin-top: 15px;
+  .column();
+  .centered();
+  padding: 10px 150px;
+  @media @phone {
+    padding: 50px;
+    margin-left: 10px;
+  }
+  p {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    line-height: 1.6;
+    @media @phone {
+      width: 80%;
+    }
+  }
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+  @media @phone {
+    .column();
+    .centered();
+    padding: 20px;
+    padding-right: 0px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  @media @tablet {
+    flex-wrap: wrap;
+  }
+}
+
+.mini {
+  padding: 0px 40px;
+  @media @tablet {
+    padding-top: 30px;
+  }
+  @media @phone {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 30px;
+  }
+
+  p {
+    line-height: 1.6;
+    @media @phone {
+      width: 90%;
+    }
+    @media @tablet {
+      width: 90%;
+    }
+  }
+}
+
+.mini-pic {
+  width: 350px;
+  height: 300px;
+  .pic-border();
+  @media @phone {
+    width: 250px;
+    height: 200px;
+    border: 1px solid #021a40;
+  }
+}
+
+button {
+  .button-mix();
+}
+button:hover {
+  .hover();
+}
