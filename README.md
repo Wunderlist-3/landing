@@ -12,13 +12,13 @@ Wunderlist 2.0 takes your traditional to-do list app and automates it. It not on
 
 Jackson Ogles https://github.com/cjogles
 
-<h2>Front End</h2>
+<h2>Frontend</h2>
 
 Rae Glazier https://github.com/raegdev
 
 Shawn Patel https://github.com/shawnpatel96
 
-<h2>Back End</h2> 
+<h2>Backend</h2> 
 
 Alexander Sierra https://github.com/alexandercsierra
 
